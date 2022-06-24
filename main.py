@@ -252,6 +252,7 @@ def startGame():
   isGameOver = False
   player_turn = CONST_PLAYER_1
 
+  displayGameGrid(logical_game_grid)
   # What does this loop do? Guess by the names you see for the functions and variables. 
   while(isGameOver is False):
     
@@ -297,7 +298,7 @@ if __name__ == "__main__":
     user_input = input(prompt)
     if user_input.lower() == "y": 
       print("Game starting...")
-      # startGame() unblock this when ready.
+      # startGame() # unblock this when ready.
       print("Game Over")
     elif user_input.lower() == "n":
       print("...Goodbye")
