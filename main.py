@@ -297,7 +297,7 @@ if __name__ == "__main__":
     user_input = input(prompt)
     if user_input.lower() == "y": 
       print("Game starting...")
-      startGame()
+      # startGame() unblock this when ready.
       print("Game Over")
     elif user_input.lower() == "n":
       print("...Goodbye")
